@@ -86,8 +86,8 @@ analytics:
 # Site Author
 author:
   name             : "Stephy Riega"
-  avatar           : "/images/biopic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Personal Portfolio"
+  avatar           : "/images/biopic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Undergraduate Economics student at PUCP"
   location         : "Lima, PE"
   email            :
   uri              :
