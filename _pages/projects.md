@@ -18,19 +18,6 @@ As part of Economica, I have written an articule for its bulletin:
 
     <em>With Patty Condor Lázaro</em>
 
-Abstract : Leer es una habilidad básica que todo estudiante debería haber adquirido en la etapa
-final de la primaria. Por tanto, es crucial preguntarnos cómo va la calidad de la educación
-que estos reciben, enfocándonos en la habilidad de lectura. El presente artículo busca
-introducir la pobreza del aprendizaje y estimar dos indicadores derivados del método FGT
-que permitan plantear un mejor entendimiento de la crisis educativa presente. Encontramos
-una alta tasa de incidencia de la pobreza del aprendizaje en los niños de cuarto de primaria
-en el 2016 y 2018, principalmente del área rural y estatal. Debido a que los resultados no
-son suficientes para explicar la complejidad de esta situación, se presentan dos medidas
-adicionales: la brecha y la severidad de la pobreza del aprendizaje. Los resultados muestran
-que entre el 2016 y 2018 han aumentado los puntos que necesitan los estudiantes para
-superar la línea de pobreza (brecha); así como también se ha agravado la condición de
-aquellos estudiantes que sufrían en mayor grado de la pobreza del aprendizaje (severidad).
-
 
 Here are some web articles I wrote in Spanish:
  * [La controversia de los COAR: una puerta para la discusión de la calidad del sistema educativo](https://economica.pe/la-controversia-de-los-coar-una-puerta-para-la-discusion-de-la-calidad-del-sistema-educativo/) - Revista Economica, (Lima, Peru)
