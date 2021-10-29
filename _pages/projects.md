@@ -2,7 +2,7 @@
 title: ""
 permalink: /research/
 header:
-author_profile: false
+author_profile: true
 ---
 
 
