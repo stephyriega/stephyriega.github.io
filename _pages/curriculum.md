@@ -4,7 +4,7 @@ permalink: /curriculum/
 header:
 ---
 
-You can download my cv <a href="/images/Resume-FC.pdf" target="_blank">here</a>
+You can download my cv <a href="/images/CV_Riega_Esp.pdf" target="_blank">here</a>
 
 <object data="/images/CV_Riega_Esp.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/images/CV_Riega_Esp.pdf">
