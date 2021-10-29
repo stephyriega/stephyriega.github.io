@@ -4,7 +4,9 @@ permalink: /curriculum/
 header:
 ---
 
-You can download my cv <a href="/images/CV_Riega_Esp.pdf" target="_blank">here</a>
+You can download my updated cv <a href="/images/CV_Riega_Esp.pdf" target="_blank">here</a>.
+
+As 2021/10/29, you can also see my cv here:
 
 <object data="/images/CV_Riega_Esp.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/images/CV_Riega_Esp.pdf">
