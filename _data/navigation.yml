@@ -4,12 +4,12 @@ main:
   #   url: /about/
   - title: "CV"
     url: /curriculum/
-  - title: "Code"
+  - title: "Code & Proyects"
     url: /code/
   - title: "Research"
     url: /research/
-  #- title: "Proyects"
-  #url: /collection-archive/
+  - title: "Talks"
+    url: /talks/
   
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

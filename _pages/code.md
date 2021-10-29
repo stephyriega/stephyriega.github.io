@@ -2,6 +2,6 @@
 layout: posts
 permalink: /code/
 title: "Code"
-author_profile: false
+author_profile: true
 header:
 ---
