@@ -11,25 +11,39 @@ author_profile: false
 Description: We built a chatbot that dinamically interacts with students to provide them with information about different higher education options in Colombia, Dominican Republic and Chile. -->
 
 
-## Screening and Recruiting Talent At Teachers Colleges - [Princeton IRS Working Papers](http://arks.princeton.edu/ark:/88435/dsp013197xp935){:target="blank"}
+My RA work until now has taken me to fascinating field works. Here are some examples: 
 
-<em>With Christopher Neilson and Sebastian Gallegos</em>
+* [Nudging Microentrepreneurs into Formalization under High Drug-Related Violence: Experimental Evidence from Urban Brazil] 
+* [Detecting corruption as non-pecuniary damage using Machine Learnig methods]
+* [Event study on the rate fertility and the Football World Cup]
 
-Abstract : This paper studies screening and recruiting policies that use pre-college academic achievement to restrict or incentivize entry to teacher-colleges. Using historical records of college entrance exam scores since 1967 and linking them to administrative data on the population of teachers in Chile, the paper first documents a robust positive and concave relationship between pre-college academic achievement and several short and long run measures of teacher productivity. We then evaluate the effectiveness of two recent policies that used pre-college achievement to recruit or screen out students entering teacher-colleges. Using a regression discontinuity design based on the government’s recruitment efforts, we first evaluate the effectiveness of targeted scholarships at shifting career choices of high achieving students as well as the effect on the overall stock of teachers predicted effectiveness. We then assess a recent screening policy that forced teacher colleges to exclude below-average applicants. We quantify the policy effectiveness by retroactively simulating the rule and evaluating its success at screening out low performing teachers and (mistakenly) high performing teachers. We compare this benchmark policy rule to a series of potential data-driven policy rules and we find that even simple screening policies can identify a significant portion of ex-post low performing teachers. In both policies studied, screening low performing students is more effective than targeting recruitment efforts to only very high achieving students. Taken together, these findings suggest that the combination of better administrative data and flexible prediction methods can be used to implement practical screening and recruiting policies in some contexts and allow for better targeting of investments in future teachers.
+As part of Economica, I have written an articule for its bulletin:
 
-<!-- <a href="https://christopherneilson.github.io/work/documents/TeacherQuality/CGN2019_Draft.pdf" target="_blank">Download Paper Here</a>
-<a href="https://christopherneilson.github.io/work/documents/TeacherQuality/CGN2019_Draft.pdf" target="_blank">Download Paper Here</a> -->
+* La crisis de la educación y la pobreza del aprendizaje en el Perú - [Economica](https://drive.google.com/file/d/1G9Py1p4xmrvhwBM802iRVaeBIiFjQPIs/view?fbclid=IwAR1jL_aOwrDn0upcJBpbVasuBzyFKRhmXiZL8XztnG8ciq6D6rwXkRGW7yA){:target="blank"}
 
-<!-- ![alt]({{ site.url }}{{ site.baseurl }}/documents/CGN2019_Draft_text.pdf)
+<em>With Patty Condor Lázaro</em>
 
-![alt]({{ site.url }}{{ site.baseurl }}/documents/CGN2019_Draft_online_appendix.pdf) -->
+Abstract : Leer es una habilidad básica que todo estudiante debería haber adquirido en la etapa
+final de la primaria. Por tanto, es crucial preguntarnos cómo va la calidad de la educación
+que estos reciben, enfocándonos en la habilidad de lectura. El presente artículo busca
+introducir la pobreza del aprendizaje y estimar dos indicadores derivados del método FGT
+que permitan plantear un mejor entendimiento de la crisis educativa presente. Encontramos
+una alta tasa de incidencia de la pobreza del aprendizaje en los niños de cuarto de primaria
+en el 2016 y 2018, principalmente del área rural y estatal. Debido a que los resultados no
+son suficientes para explicar la complejidad de esta situación, se presentan dos medidas
+adicionales: la brecha y la severidad de la pobreza del aprendizaje. Los resultados muestran
+que entre el 2016 y 2018 han aumentado los puntos que necesitan los estudiantes para
+superar la línea de pobreza (brecha); así como también se ha agravado la condición de
+aquellos estudiantes que sufrían en mayor grado de la pobreza del aprendizaje (severidad).
 
-[Latest Version](https://christopherneilson.github.io/work/documents/TeacherQuality/CGN2019_Draft.pdf){:target="blank"}
 
-[Online Appendix](/documents/CGN2019_Draft_online_appendix.pdf){:target="blank"}
+Here are some web articles I wrote in Spanish:
+ * [La controversia de los COAR: una puerta para la discusión de la calidad del sistema educativo](https://economica.pe/la-controversia-de-los-coar-una-puerta-para-la-discusion-de-la-calidad-del-sistema-educativo/) - Revista Economica, (Lima, Peru)
+ * [Las licencias obligatorias de las vacunas y sus posibilidades en la pandemia del Covid-19](https://economica.pe/las-licencias-obligatorias-de-las-vacunas-y-sus-posibilidades-en-la-pandemia-del-covid-19/) - Revista Economica, (Lima, Peru)
 
-<!-- ## Information Provision Using a Chatbot
+Recently, I've also been working on some proyects:
 
-<em>With Christopher Neilson</em>
+ * Cuando migrar no es suficiente:  Una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano entre el 2019 y 2020 - Revista Economica, (Lima, Peru)
+ * 
+ * Prediciendo la vulnerabilidad del empleo en las mujeres en el Perú urbano - Thesis for Bachelor's Degree
 
-We built a chatbot that dynamically interacts with students to provide them with information about different higher education options in Colombia, Dominican Republic and Chile. -->
