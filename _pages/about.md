@@ -5,6 +5,9 @@ header:
 ---
 
 \\
-I'm a PhD student in Economics at The University of Chicago Booth School of Business.
-My main research interest lay in the intersection between Industrial Organization, Development and Artificial Inteligence.
-For more information about me [Download my CV](https://www.dropbox.com/s/cykvv8sxauj2oyw/Resume%20-%20FC.pdf?dl=0)
+Hi! I'm Stephy Riega, an undergraduate student of Economics at PUCP, Peru. My interests are in the field of Applied Microeconomics, Data Science, Labor, Education and Gender. Here you will find more about my research, code and (soon) my hobbies.
+
+
+### Contact
+You can reach me at: riega.stephy <kbd>[at]</kbd> pucp <kbd>[dot]</kbd> edu <kbd>[dot]</kbd> pe, or find me on [Twitter](https://twitter.com/sriegae?t=-E5p7AOp4HKnJfDUdmgROQ&s=09).
+
