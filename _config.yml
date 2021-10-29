@@ -8,11 +8,11 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Franco Calle"
+locale                   : "en-PE"
+title                    : "Stephy Riega"
 title_separator          : "-"
-name                     : "Franco Calle"
-description              : ""
+name                     : "Stephy Riega"
+description              : "Undergraduate Economics student at PUCP"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -85,10 +85,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Franco Calle"
-  avatar           : "/images/franco.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Personal Portfolio"
-  location         : "Chicago, IL"
+  name             : "Stephy Riega"
+  avatar           : "/images/biopic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Undergraduate Economics student at PUCP"
+  location         : "Lima, PE"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -98,19 +98,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "FrancoCalle"
+  github           : "stephyriega"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "CalleFalcon"
+  instagram        : ""
   lastfm           :
-  linkedin         : "franco-calle-falc%C3%B3n-b4016992" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "stephy-r-17a984123/" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "FrancoCalle"
+  twitter          : "sriegae"
   vine             :
   weibo            :
   xing             :
