@@ -6,11 +6,6 @@ author_profile: false
 ---
 
 
-<!-- # Information Provision with a Chatbot
-
-Description: We built a chatbot that dinamically interacts with students to provide them with information about different higher education options in Colombia, Dominican Republic and Chile. -->
-
-
 My RA work until now has taken me to fascinating field works. Here are some examples: 
 
 * [Nudging Microentrepreneurs into Formalization under High Drug-Related Violence: Experimental Evidence from Urban Brazil] 
@@ -44,6 +39,6 @@ Here are some web articles I wrote in Spanish:
 Recently, I've also been working on some proyects:
 
  * Cuando migrar no es suficiente:  Una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano entre el 2019 y 2020 - Revista Economica, (Lima, Peru)
- * 
+ 
  * Prediciendo la vulnerabilidad del empleo en las mujeres en el Perú urbano - Thesis for Bachelor's Degree
 
