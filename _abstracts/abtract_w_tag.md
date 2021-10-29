@@ -1,9 +1,9 @@
 ---
-title: "Discrete Choice Models"
-date: 2018-01-28
-tags: [Discrete Choice Model, Behavioral Modelling]
+title: "title"
+date: 20xx-01-28
+tags: [tag1, tag2]
 header:
-excerpt: "Behavioral Modelling"
+excerpt: "ex"
 mathjax: "true"
 ---
 
