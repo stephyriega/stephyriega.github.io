@@ -1,10 +1,13 @@
 ---
 permalink: /
 title: "Welcome to my website"
-permalink: /about/
+excerpt: "About me"
 author_profile: true
-header:
+redirect_from: 
+  - /about/
+  - /about.html
 ---
+
 Hi! I'm Stephy Riega, an undergraduate student of Economics at PUCP, Peru. My interests are in the field of Applied Microeconomics, Data Science, Labor, Education and Gender. Here you will find more about my research, code and (soon) my hobbies.
 
 
