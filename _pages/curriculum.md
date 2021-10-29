@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /curriculum/
+permalink: /cv/
 header:
 ---
 
