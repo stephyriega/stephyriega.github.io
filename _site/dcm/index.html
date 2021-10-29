@@ -1,0 +1,462 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Discrete Choice Models - Matlab - Franco Calle</title>
+<meta name="description" content="Behavioral Modelling - Python &amp; Matlab">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Franco Calle">
+<meta property="og:title" content="Discrete Choice Models - Matlab">
+<meta property="og:url" content="http://localhost:4000/dcm/">
+
+
+  <meta property="og:description" content="Behavioral Modelling - Python &amp; Matlab">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-10-15T00:00:00-04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/dcm/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Franco Calle",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Franco Calle Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Franco Calle</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/curriculum/" >CV</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/code/" >Code</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/research/" >Research Projects</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Discrete Choice Models - Matlab">
+    <meta itemprop="description" content="Behavioral Modelling - Python &amp; Matlab">
+    <meta itemprop="datePublished" content="October 15, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Discrete Choice Models - Matlab
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="discrete-choice-models-in-matlab">Discrete choice models in Matlab</h2>
+
+<p>Fork my repo <a href="https://github.com/FrancoCalle/DiscreteChoiceModels/blob/master/matlab" target="blank">here</a>.</p>
+
+<p>Models available:</p>
+<ul>
+  <li>Logit</li>
+  <li>Exploded Logit</li>
+  <li>Logit with Random Coefficients</li>
+  <li>Exploded Logit with Random Coefficients</li>
+</ul>
+
+<p>Discrete choice models are becoming trendier as more data becomes available in multiple areas like health, education, credit markets, and many others. The key idea of them is to model the process of decision making of an individual for choosing a particular option among a discrete set of option, based on individual and option level characteristics. Many applications of this method come to my mind; for instance, estimating the probability of a family choosing where to enroll their children from an array of schools available near their neighborhood, or estimating the probability of choosing a particular mean of transportation for an individual to get to work.</p>
+
+<!-- *italics* -->
+
+<p>With the objective of estimating these models, I developed <a href="https://github.com/FrancoCalle/DiscreteChoiceModels/blob/master/matlab/dcmLab.m" target="blank">dcmLab</a>, a package programed in Matlab, (Python and Julia versions forthcoming) that computes different versions of static discrete choice models that maximize the likelihood, or the joint likelihood, of a decision problem. You can also add non observable heterogeneity to your model by using the random coefficients routine in the package.</p>
+
+<p>In this post I pretend to briefly explain how the code works in the case of a very simple logistic model without unobservable components. For a description of the mathematical details I recommend reading “Discrete choice methods with simulation” by Kenneth Train 2009.</p>
+
+<p>The whole package can be found <a href="https://github.com/FrancoCalle/DiscreteChoiceModels/tree/master/matlab" target="blank">here</a>
+The simplest way of testing it is to clone the repository, open matlab and run mainLogit or mainExplodedLogit depending on which model you want to test.</p>
+
+<p>Disclaimer: I know Matlab’s OOP is very slow and defining all the functions within a single class can be computationally inefficient, however, I decided to have all the code in one class anyways to prevent loading the repo with many .m files. If you’re looking for efficiency, I recommend separating the functions in different .m files, I did that for many other projects and it worked 100% guaranteed.</p>
+
+<p>Ok, here we go!</p>
+
+<p>First, the script defines variables entering into the model, in this case we define the <code class="language-plaintext highlighter-rouge">nXX</code> different explanatory variables and store them in cell array <code class="language-plaintext highlighter-rouge">XX</code> which contains arrays of <code class="language-plaintext highlighter-rouge">nObs</code> observations and <code class="language-plaintext highlighter-rouge">nOptions</code> options. Our explanatory variables here will be random arrays that comply with the mentioned characteristics but could easily be replaced by characteristics from the real world. All the variables that will be used in the model will be stored in the <code class="language-plaintext highlighter-rouge">Data</code> structure.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nObs = 10000; nOptions = 20; nXX = 15;
+
+Data.nObs = nObs;
+Data.nOptions = nOptions;
+
+Data.XX = {};
+for ii = 1:nXX
+    Data.XX{ii} = randn(nObs,nOptions); %Variable 1
+end
+</code></pre></div></div>
+
+<p>&nbsp;</p>
+
+<p>Second, in order to generate data on choices we have to arrange the coefficients that will enter the routine and define the model type we want to be testing. Our logistic model is  <code class="language-plaintext highlighter-rouge">Model 1</code> and will use random parameters for each X variable. After defining the parameters and the XX variables we can generate fake choices conditional on them using <code class="language-plaintext highlighter-rouge">dcmLab.generateFakeChoices(parameters, false)</code>. This routine uses as inputs a parameter array and a bool that is true if we want to generate the feasible choice set based on a Deferred Acceptance algorithm (the matlab implementation was adapted by <a href="https://github.com/mohitkarnani" target="blank">Mohit Karnani</a>), or false if we want to define a random feasible choice set. For this tutorial we will opt for the second. The result of the routine is a new element in Data named <code class="language-plaintext highlighter-rouge">ChoiceIndex</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Pack.Model = 'Model 1'; %This define the type of model to estimate
+
+parameters = dcmLab.setupParameters();
+% 1.5. Generate Choices
+dcmLab.generateFakeChoices(parameters, false); %Estimate fake data
+</code></pre></div></div>
+
+<p>&nbsp;</p>
+
+<p>After generating choices, we define the utility function we will use <code class="language-plaintext highlighter-rouge">dcmLab.utilityFunction(parameters,  true)</code> and check whether the gradients for the objective function of the model are correctly defined. What <code class="language-plaintext highlighter-rouge">dcmLab.checkGradient(parameters,passedUtilityFunction)</code> does is compute the difference between the analytic gradient and the numerical gradient that should be zero if the gradient is correctly defined.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>passedUtilityFunction = @(parameters) dcmLab.utilityFunction(parameters,  true);
+dcmLab.checkGradient(parameters,passedUtilityFunction)
+</code></pre></div></div>
+
+<p>&nbsp;</p>
+
+<p>Once gradients for all parameters were checked, we continue with the optimization procedure. Basically, we introduce our utility function in a handler again, plus some random initial values for our parameters and pass the function to the optimization routine. <code class="language-plaintext highlighter-rouge">dcmLab.estimationNLP</code> uses the quasi-newton optimization method from Matlab to fit parameters. You can play with the method by changing hyperparameters within dcmLab if you consider necessary.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>passedUtilityFunction = @(theta) dcmLab.utilityFunction(theta, true);
+[theta_quasinewton,fobj1,~,~]=dcmLab.estimationNLP(theta_init, passedUtilityFunction);
+</code></pre></div></div>
+
+<p>&nbsp;</p>
+
+<p>This method should perfectly recover the parameters we used to define <code class="language-plaintext highlighter-rouge">ChoiceIndex</code> after convergence is reached. Here is a scatterplot that shows how well our estimated coefficients fit to the true parameters.
+<img src="http://localhost:4000/images/dcm/parameter_fitting_no_rc.jpg" alt="alt" /></p>
+
+<p>In addition to the Matlab optimization method, I also built an stochastic gradient descent procedure with Adam optimizer (<a href="https://arxiv.org/abs/1412.6980" target="blank">Kingma &amp; Ba 2015</a>) that can be faster for optimizing objective functions when the dimensionality of the parameter space and/or the number of observations in the model increases. This procedure uses mini batches of data -instead of the whole sample- to estimate the magnitude and direction where parameters should be updated iteration by iteration based on adaptive estimates of lower-order moments. To visualize performance run the next lines of code.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%4.1. Define batch size:
+batchSize = 2^10;
+nIter = 120;
+%4.2. What happens when we start from the true values?
+initial_values  = theta_init(1,:); %initial_values  = theta_init(s,:);
+
+passedUtilityFunction = @(theta) dcmLab.utilityFunction(theta, true);
+[theta_estimated_Adam, allTheta]= dcmLab.optimizationAlgorithm(initial_values, batchSize, 'Adam', nIter, passedUtilityFunction);
+</code></pre></div></div>
+<p>&nbsp;</p>
+
+<p>Here we plot how parameters converge after 120 iterations:
+<img src="http://localhost:4000/images/dcm/parameters_convergence_no_rc.jpg" alt="alt" /></p>
+
+<p>After parameters were recovered, we can make multiple experiments. For instance, here I added code that simulates how utility would change if we reduce the set of options available to individuals, say, closing schools or closing routes where a car can transit to go to a destination.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nKilled = 5;
+Policy = ~(Ranking &gt; nOptions - nKilled);
+Data.FeasibleSet = logical(double(Data.FeasibleSet).*double(Policy));
+
+utilities1  = dcmLab.simulateUtilities(parameters);
+[~,choice1] = max(utilities1,[],2);
+
+histogram(utilities0(bsxfun(@eq, 1:size(utilities0,2), choice0)), 'EdgeColor', CC(10,:), 'FaceColor', CC(10,:), 'FaceAlpha', 0.4)
+hold on
+histogram(utilities1(bsxfun(@eq, 1:size(utilities1,2), choice1)), 'EdgeColor', CC(50,:), 'FaceColor', CC(50,:), 'FaceAlpha', 0.4)
+legend('Before Policy','After Policy')
+grid on
+box on
+</code></pre></div></div>
+
+<p>&nbsp;</p>
+
+<p>Evidently, reducing options can reduce overall utility.
+<img src="http://localhost:4000/images/dcm/policy_change.jpg" alt="alt" /></p>
+
+<p>I hope this post was useful to understand dcmLab. Please, if you have any comments or want to make changes to improve dcmLab, don’t hesitate on submitting pull requests to the <a href="https://github.com/FrancoCalle/DiscreteChoiceModels" target="blank">repo</a>. If your changes are approved I’ll publish my gratitude to your contribution to this post and tweet about it.</p>
+
+<p>&nbsp;</p>
+
+<p>Bibliography:</p>
+
+<p>Train, K., &amp; Weeks, M. (2005). <em>Discrete choice models in preference space and willingness-to-pay space</em>. In Applications of simulation methods in environmental and resource economics (pp. 1-16). Springer, Dordrecht.</p>
+
+<p>Kingma, D. P., &amp; Ba, J. (2014). Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980.</p>
+
+<!-- Python code block:
+```python
+    import numpy as np
+
+    def test_function(x, y):
+      z = np.sum(x,y)
+      return z
+``` -->
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#behavioral-model" class="page__taxonomy-item" rel="tag">behavioral model</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#discrete-choice-model" class="page__taxonomy-item" rel="tag">discrete choice model</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#logit" class="page__taxonomy-item" rel="tag">logit</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-10-15T00:00:00-04:00">October 15, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Discrete+Choice+Models+-+Matlab%20http%3A%2F%2Flocalhost%3A4000%2Fdcm%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdcm%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Fdcm%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fdcm%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/dcm/" rel="permalink">Discrete Choice Models - Matlab
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Behavioral Modelling - Python &amp; Matlab
+</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    <!-- 
+      <li><strong>Follow:</strong></li>
+     -->
+
+    
+
+    <!-- <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li> -->
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Franco Calle.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151603978-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151603978-1');
+</script>
+
+
+
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+    
+    </body>
+</html>
