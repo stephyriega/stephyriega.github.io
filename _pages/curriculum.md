@@ -1,7 +1,7 @@
 ---
 title: ""
 permalink: /curriculum/
-Author profile: true
+author_profile: true
 header:
 ---
 
