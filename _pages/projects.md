@@ -14,7 +14,7 @@ My RA work until now has taken me to fascinating field works. Here are some exam
 
 As part of Economica, I have written an articule for its bulletin:
 
-* La crisis de la educación y la pobreza del aprendizaje en el Perú - [Economica](https://drive.google.com/file/d/1G9Py1p4xmrvhwBM802iRVaeBIiFjQPIs/view?fbclid=IwAR1jL_aOwrDn0upcJBpbVasuBzyFKRhmXiZL8XztnG8ciq6D6rwXkRGW7yA){:target="blank"}
+* [La crisis de la educación y la pobreza del aprendizaje en el Perú](https://drive.google.com/file/d/1G9Py1p4xmrvhwBM802iRVaeBIiFjQPIs/view?fbclid=IwAR1jL_aOwrDn0upcJBpbVasuBzyFKRhmXiZL8XztnG8ciq6D6rwXkRGW7yA) - Revista Economica, (Lima, Peru)
 
     <em>With Patty Condor Lázaro</em>
 
