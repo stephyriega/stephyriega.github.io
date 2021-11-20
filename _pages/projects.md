@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-My RA work until now has taken me to fascinating field works. As a research intern at [Group of Analysis for Development] (http://www.grade.org.pe/), here are some examples of proyects I have worked: 
+My RA work until now has taken me to fascinating field works. As a research intern at [Group of Analysis for Development](http://www.grade.org.pe/), here are some examples of proyects I have worked: 
 
 * [Nudging Microentrepreneurs into Formalization under High Drug-Related Violence: Experimental Evidence from Urban Brazil] 
 * [Detecting corruption as non-pecuniary damage using Machine Learnig methods]
