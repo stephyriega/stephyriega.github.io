@@ -12,7 +12,7 @@ My RA work until now has taken me to fascinating field works. As a research inte
 * [Detecting corruption as non-pecuniary damage using Machine Learnig methods]
 * [Event study on the rate fertility and the Football World Cup]
 
-As volunteer in the Research and Publications area at Economica, I have written an articule for its bulletin:
+As volunteer in the Research and Publications area at [Economica](https://economica.pe/), I have written an articule for its bulletin:
 
 * [La crisis de la educación y la pobreza del aprendizaje en el Perú](https://drive.google.com/file/d/1G9Py1p4xmrvhwBM802iRVaeBIiFjQPIs/view?fbclid=IwAR1jL_aOwrDn0upcJBpbVasuBzyFKRhmXiZL8XztnG8ciq6D6rwXkRGW7yA) - Revista Economica, (Lima, Peru)
     <em>With Patty Condor Lázaro</em>
