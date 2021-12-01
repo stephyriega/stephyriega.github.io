@@ -7,14 +7,17 @@ author_profile: true
 
 ## Research Assistance
 
-My RA work until now has taken me to fascinating field works. As a research intern at [Group of Analysis for Development](http://www.grade.org.pe/), here are some examples of proyects I have worked: 
+My RA work until now has taken me to fascinating field works. As a research intern at [GRADE](http://www.grade.org.pe/), here are some examples of proyects I have worked: 
 
-* [Nudging Microentrepreneurs into Formalization under High Drug-Related Violence: Experimental Evidence from Urban Brazil] : Assited in the elaboration of estimations and graphs using an RCT dataset related to the impact evaluation of reminders on labour formalization programme in Brazil. I made use of Stata and LateX to this programm the calculations as well as to model the tables and them exported to Latex. I calcuted the heterogenous effects of programmes between clusters, made test to the compare two coefficients of the same estimation and graphed the evolution of the ATE effects in time.
+* [Nudging Microentrepreneurs into Formalization under High Drug-Related Violence: Experimental Evidence from Urban Brazil] 
+    Assited in the elaboration of estimations and graphs using an RCT dataset related to the impact evaluation of reminders on labour formalization programme in Brazil. I made use of Stata and LateX to this programm the calculations as well as to model the tables and them exported to Latex. I calcuted the heterogenous effects of programmes between clusters, made test to the compare two coefficients of the same estimation and graphed the evolution of the ATE effects in time.
 
 
-* [Detecting corruption as non-pecuniary damage using Machine Learnig methods]: Supported in literature review, elaboration of descriptive tables using Stata and data analysis for a investigation that aimed to detect corruption as non-pecuniary damage using Machine Learning methods. In order to do this, I replicated  the paper "Cálculo del tamaño de la corrupción y la inconducta funcional en el Perú" by Shack, Pérez & Portugal (2020), managed exclusive data from CGR and was in the process of fuzzy-merged it with information from other entities of the State. 
+* [Detecting corruption as non-pecuniary damage using Machine Learnig methods]
+    Supported in literature review, elaboration of descriptive tables using Stata and data analysis for a investigation that aimed to detect corruption as non-pecuniary damage using Machine Learning methods. In order to do this, I replicated  the paper "Cálculo del tamaño de la corrupción y la inconducta funcional en el Perú" by Shack, Pérez & Portugal (2020), managed exclusive data from CGR and was in the process of fuzzy-merged it with information from other entities of the State. 
 
-* [Event study on the rate fertility and the Football World Cup]: Supported in the construction of a synthetic data panel of women in the age to conceveive, analysis of the dataset (tables and graphs) and estimation of a panel event study on the fertility rate in Peru. Our main dataset was built originally from ENDES (1996-2020) and I made use of Stata for this task. I estimated the ammount of women who were pregnant by week and month. After reducing the data to go from 2010-2020, I reconstruted some sociodemographic characteristics an pregnant history in order to the construst a synthetic panel with 12 million observations. 
+* [Event study on the rate fertility and the Football World Cup]
+    Supported in the construction of a synthetic data panel of women in the age to conceveive, analysis of the dataset (tables and graphs) and estimation of a panel event study on the fertility rate in Peru. Our main dataset was built originally from ENDES (1996-2020) and I made use of Stata for this task. I estimated the ammount of women who were pregnant by week and month. After reducing the data to go from 2010-2020, I reconstruted some sociodemographic characteristics an pregnant history in order to the construst a synthetic panel with 12 million observations. 
 
 ## Volunteering in research:
 
@@ -29,7 +32,7 @@ My RA work until now has taken me to fascinating field works. As a research inte
 Also, here are some web articles I wrote in Spanish:
  * [La controversia de los COAR: una puerta para la discusión de la calidad del sistema educativo](https://economica.pe/la-controversia-de-los-coar-una-puerta-para-la-discusion-de-la-calidad-del-sistema-educativo/) - Revista Economica, (Lima, Peru) 
  
-This article points out some axes of debate with respect to the High Achievement Schools (COAR). The relevance of their existence is controversial insofar as it involves the component of equity in the quality of education, the cost that this strategy represents for the state and the mixed results it has on students. The discussion on whether or not this model should be followed highlights a precarious education system that we are all familiar with, but which, in times of crisis, is impossible to ignore and calls for a call for quality public education for all.
+    This article points out some axes of debate with respect to the High Achievement Schools (COAR). The relevance of their existence is controversial insofar as it involves the component of equity in the quality of education, the cost that this strategy represents for the state and the mixed results it has on students. The discussion on whether or not this model should be followed highlights a precarious education system that we are all familiar with, but which, in times of crisis, is impossible to ignore and calls for a call for quality public education for all.
  
  * [Las licencias obligatorias de las vacunas y sus posibilidades en la pandemia del Covid-19](https://economica.pe/las-licencias-obligatorias-de-las-vacunas-y-sus-posibilidades-en-la-pandemia-del-covid-19/) - Revista Economica, (Lima, Peru)
  
@@ -40,6 +43,6 @@ This article points out some axes of debate with respect to the High Achievement
 
     This research seeks to analyse the job quality of interdepartmental migrants in urban areas during 2019 and 2020. Job quality, under the decent work approach, encompasses dimensions of workers' well-being. After constructing an index and finding that job quality deteriorated, we find, using a generalised ordinal logit, that there is no-relation between being migrant and job quality. Nonetheless there are other sociodemographic characteristics that migrants usually share which are linked to the lowest job quality. 
 
-**As research assistant volunteer at City Makers**, I will support in a proyect related the impact of STEM education on gender differentiation in Ayacucho. I will assist PhD. Candidate Fabiola M. Alba Vivar and other multidisciplinary members of the organization with many task in order to develop the proyect. 
+**As research assistant volunteer at City Makers**, I will support in a proyect related the impact of STEM education on gender differentiation in Ayacucho. I will assist PhD. Candidate Fabiola M. Alba Vivar and other multidisciplinary members of the organization with many tasks in order to develop the proyect. 
 
  
