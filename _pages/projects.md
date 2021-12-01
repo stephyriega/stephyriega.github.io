@@ -41,8 +41,9 @@ Also, here are some web articles I wrote in Spanish:
 
 Here's a proyect to be published in the next months:
 
- * Cuando migrar no es suficiente:  Una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano entre el 2019 y 2020 - Revista Economica, (Lima, Peru) 
-<em>With Diego Delgado Díaz</em>
+ * Cuando migrar no es suficiente:  Una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano entre el 2019 y 2020 - Revista Economica, (, Peru)
+ <em>With Diego Delgado Díaz</em>
+ 
     This research seeks to analyse the job quality of interdepartmental migrants in urban areas during 2019 and 2020. Job quality, under the decent work approach, encompasses dimensions of workers' well-being. After constructing an index and finding that job quality deteriorated, we find, using a generalised ordinal logit, that there is no-relation between being migrant and job quality. Nonetheless there are other sociodemographic characteristics that migrants usually share which are linked to the lowest job quality. 
 
 **As research assistant volunteer at City Makers**, I will support in a proyect related the impact of STEM education on women in Ayacucho. I will assist PhD.candidate Fabiola M. Alba Vivar and other multidisciplinary members of the organization with many tasks in order to develop the proyect. 
