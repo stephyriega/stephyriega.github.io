@@ -40,6 +40,6 @@ This article points out some axes of debate with respect to the High Achievement
 
     This research seeks to analyse the job quality of interdepartmental migrants in urban areas during 2019 and 2020. Job quality, under the decent work approach, encompasses dimensions of workers' well-being. After constructing an index and finding that job quality deteriorated, we find, using a generalised ordinal logit, that there is no-relation between being migrant and job quality. Nonetheless there are other sociodemographic characteristics that migrants usually share which are linked to the lowest job quality. 
 
-**As research Assistant volunteer at City Makers**, I will support in a proyect related the impact of STEM education on gender differentiation in Ayacucho. I will assist PhD. Candidate Fabiola M. Alba Vivar and other multidisciplinary members of the organization with many task in order to develop the proyect. 
+**As research assistant volunteer at City Makers**, I will support in a proyect related the impact of STEM education on gender differentiation in Ayacucho. I will assist PhD. Candidate Fabiola M. Alba Vivar and other multidisciplinary members of the organization with many task in order to develop the proyect. 
 
  
