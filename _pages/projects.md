@@ -44,6 +44,6 @@ Also, here are some web articles I wrote in Spanish:
  
     This research seeks to analyse the job quality of interdepartmental migrants in urban areas during 2019 and 2020. Job quality, under the decent work approach, encompasses dimensions of workers' well-being. After constructing an index and finding that job quality deteriorated, we find, using a generalised ordinal logit, that there is no-relation between being migrant and job quality. Nonetheless there are other sociodemographic characteristics that migrants usually share which are linked to the lowest job quality. 
 
-**As research assistant volunteer at City Makers**, I will support in a proyect related the impact of STEM education on women in Ayacucho. I will assist PhD.candidate Fabiola M. Alba Vivar and other multidisciplinary members of the organization with many tasks in order to develop the proyect. 
+**As research assistant volunteer at City Makers**, I support a proyect related the impact of STEM education on women in Moquegua. I assisted PhD.candidate Fabiola M. Alba Vivar and other multidisciplinary members of the organization. 
 
  
