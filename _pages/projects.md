@@ -39,9 +39,7 @@ Also, here are some web articles I wrote in Spanish:
  
     The vaccine supply crisis leads us to consider possible avenues for a solution. Among them, compulsory licensing presents a way to increase vaccine availability, but not without its corresponding challenges for the countries that implement it. Therefore, a review of what compulsory licensing is, what it entails, how it can help in this crisis, and how it can do so successfully, is undertaken. 
 
-Here's a proyect to be published in the next months:
-
-* [Cuando migrar no es suficiente:  Una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano entre el 2019 y 2020]() - Revista Economica, (March 2021, Peru)
+* [Cuando migrar no es suficiente:  Una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano entre el 2019 y 2020](https://revistas.pucp.edu.pe/index.php/economica/article/view/25082) - Revista Economica, (March 2021, Peru)
     <em> With [Diego Delgado Díaz](https://github.com/DiegoDelgadoD/)</em>
  
     This research seeks to analyse the job quality of interdepartmental migrants in urban areas during 2019 and 2020. Job quality, under the decent work approach, encompasses dimensions of workers' well-being. After constructing an index and finding that job quality deteriorated, we find, using a generalised ordinal logit, that there is no-relation between being migrant and job quality. Nonetheless there are other sociodemographic characteristics that migrants usually share which are linked to the lowest job quality. 
