@@ -1,15 +1,19 @@
 # main links
 main:
-  # - title: "About"
-  #   url: /about/
+   - title: "About me"
+    url: /about/
   - title: "CV"
     url: /curriculum/
-  - title: "Code & Proyects"
+  - title: "Codes
     url: /code/
   - title: "Research"
     url: /research/
-  #- title: "Portfolio"
-    #url: /portfolio/
+  - title: "Blog Post"
+    url: /portfolio/    
+  - title: "Talks"
+    url: /talks/
+  - title: "Hobbies"
+    url: /hobbies/
   
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
