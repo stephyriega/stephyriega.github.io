@@ -17,7 +17,7 @@ You can find my digital library on my [Goodreads profile](https://www.goodreads.
 
 ## Water sports
 
-I have been swimming since I was a child and I have tried to keep this sport it a constant in my life (mostly during summer but in the last few years also during winter) because is one of the activies that helps me to relax. Recently, I have started taking surfing classes and it has been challenging. I have always wanted to learn to mastering a wave and I think I am in the process of learning how to.
+I have been swimming since I was a child and I have tried to keep this sport it a constant in my life (mostly during summer but in the last few years also during winter) because is one of the activies that helps me to relax. Recently, I have started taking surfing classes and it has been challenging. I have always wanted to master a wave and I think I am in the process to learn how.
 
 ## Creating art in some form
 
