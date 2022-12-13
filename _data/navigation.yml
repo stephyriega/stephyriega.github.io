@@ -1,25 +1,22 @@
-# main links
+# main links links
 main:
-  - title: "About me"
-    url: /about/
-  - title: "CV"
-    url: /curriculum/
-  - title: "Projects"
-    url: /projects/
   - title: "Research"
-    url: /research/
-  - title: "Blog Post"
-    url: /blog/    
+    url: /publications/
+
+  - title: "Publications"
+    url: /teaching/    
+    
+  - title: "Codes"
+    url: /portfolio/
+        
+  - title: "Blog Posts"
+    url: /year-archive/
+    
+  - title: "CV"
+    url: /cv/
+    
   - title: "Talks"
-    url: /talks/
+    url: /talks/    
+    
   - title: "Hobbies"
     url: /hobbies/
-  
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
