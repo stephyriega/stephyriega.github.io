@@ -23,6 +23,6 @@ I have been swimming since I was a child and I have tried to keep this sport it 
 
 Creating art helps me to get a wider perpective of the world we live in. Taking photographs of the places I have been to inmortalice a place and time is one of the forms I have sticked for years but recently had the courage to make it public. Recreating a scene from a book or a moment of my life (through drawing, painting, or making a collage) is also one of the ways I have find to create art in my own way. 
 
-![](/images/pictures.png)
+![](/images/photos.png)
 
 You can find my "forms" of art on the [instagram profile](https://instagram.com/em0liente?igshid=YmMyMTA2M2Y=) I created for them to be shown. 
