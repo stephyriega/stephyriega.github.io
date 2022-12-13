@@ -1,11 +1,8 @@
 ---
-permalink: /about/
-title: "Welcome to my website"
-excerpt: "About me"
+permalink: /talks/
+title: "Talks"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
+Some talks have had me as a speaker on their panel. The themes of them and my respective participation can be found here. 
 
