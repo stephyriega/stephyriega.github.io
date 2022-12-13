@@ -1,7 +1,7 @@
 ---
-layout: posts
 permalink: /code/
-title: "Code"
+title: "Projects"
 author_profile: true
-header:
 ---
+
+Here you can find the code projects I have developed so far in my research path and in the programming courses I have attended. You can find their repositories in my [github site](https://github.com/stephyriega). 
