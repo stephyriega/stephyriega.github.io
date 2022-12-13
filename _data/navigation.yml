@@ -5,11 +5,11 @@ main:
   - title: "CV"
     url: /curriculum/
   - title: "Projects"
-    url: /code/
+    url: /projects/
   - title: "Research"
     url: /research/
   - title: "Blog Post"
-    url: /portfolio/    
+    url: /blog/    
   - title: "Talks"
     url: /talks/
   - title: "Hobbies"
