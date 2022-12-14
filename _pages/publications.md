@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-Here you can find information about the projects I have supported in research, and my personal projects in collaboration with some amazing researchers. 
+Here you can find information about the research projects I have assisted, and my personal research projects (mostly in development) in collaboration with some amazing researchers. 
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
