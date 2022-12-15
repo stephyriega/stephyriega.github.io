@@ -10,7 +10,7 @@ locale                   : "en-PE"
 title                    : "Stephy Riega"
 title_separator          : "-"
 name                     : &name "Stephy Riega"
-description              : &description "Economist"
+description              : &description "Curious human being, feminist & Economist"
 url                      : https://stephyriega.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "stephyriega.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Stephy Riega"
   avatar           : "profile.png"
-  bio              : "Economist"
+  bio              : "Curious human being, feminist & Economist"
   location         : "Lima, Peru"
-  employer         :
+  employer         : "Innovations for Poverty Actions"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://scholar.google.com"
   email            :
@@ -99,7 +99,7 @@ author:
   github           : "stephyriega"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "sriega.jpg"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
