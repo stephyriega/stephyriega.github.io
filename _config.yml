@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" #"contrast", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum"
 
 # Site Settings
 locale                   : "en-PE"
@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Stephy Riega"
-  avatar           : "/images/profile_2.png"
+  avatar           : "/images/profile_2.jpg"
   bio              : "Curious human being, feminist & Economist"
   location         : "Lima, Peru"
   employer         : "IPA"
