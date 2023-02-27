@@ -13,4 +13,4 @@ Here you will find more about my work in research, projects and my hobbies.
 
 
 ### Contact
-You can reach me at: riega.stephy `[at]` pucp `[dot]` edu `at` pe, find me on [Twitter](https://twitter.com/sriegae?t=-E5p7AOp4HKnJfDUdmgROQ&s=09) or on my work [email](https://www.poverty-action.org/people/stephy-riega).
+You can reach me at: riega.stephy `[at]` pucp `[dot]` edu `[dot]` pe, find me on [Twitter](https://twitter.com/sriegae?t=-E5p7AOp4HKnJfDUdmgROQ&s=09) or on my work [email](https://www.poverty-action.org/people/stephy-riega).
