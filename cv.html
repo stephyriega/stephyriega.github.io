@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Lonely Bootstrap Template</title>
-  <meta content="" name="description">
+  <title>CV - Stephy Riega Escalante</title>
+  <meta content="Curriculum vitae of Stephy Riega Escalante." name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.jpg" rel="icon" type="image/jpeg">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -42,36 +42,19 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html">Lonely</a></h1>
+        <h1><a href="index.html">Stephy Riega Escalante</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="index.html#about">About</a></li>
+          <li><a class="nav-link" href="research.html">Research</a></li>
+          <li><a class="nav-link" href="code.html">Code</a></li>
+          <li><a class="nav-link active" href="cv.html">CV</a></li>
+          <li><a class="nav-link" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -86,23 +69,32 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>CV</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li>CV</li>
           </ol>
         </div>
 
       </div>
-    </section><!-- End Breadcrumbs Section -->
+    </section><!-- Breadcrumbs Section -->
 
-    <section class="inner-page">
+    <!-- ======= CV ======= -->
+    <section id="cv" class="cv">
       <div class="container">
-        <p>
-          Example inner page template
+
+        <!-- To update the CV: replace assets/cv/CV_Stephy_Riega.pdf with the new file, keeping the same name. -->
+        <p class="research-links cv-actions">
+          <a href="assets/cv/CV_Stephy_Riega.pdf" target="_blank" rel="noopener"><i class="bi bi-download"></i> Open / download PDF</a>
         </p>
+
+        <div id="cv-viewer" class="cv-viewer" data-pdf="assets/cv/CV_Stephy_Riega.pdf">
+          <p class="cv-status">Loading CV…</p>
+          <noscript><p class="cv-status">The CV preview needs JavaScript. <a href="assets/cv/CV_Stephy_Riega.pdf">Open the PDF</a> instead.</p></noscript>
+        </div>
+
       </div>
-    </section>
+    </section><!-- End CV -->
 
   </main><!-- End #main -->
 
@@ -110,7 +102,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Lonely</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Stephy Riega</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -131,10 +123,10 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/cv-viewer.js"></script>
 
 </body>
 
