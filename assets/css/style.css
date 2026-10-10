@@ -1356,42 +1356,32 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Home: watermark image on the right side
+# Watermark image, right side of every page
 --------------------------------------------------------------*/
-.about {
-  position: relative;
-  overflow: hidden;
-}
-
-.about::after {
+body::before {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 50%;
   right: 0;
-  width: 48%;
-  height: 80%;
+  width: 48vw;
+  height: 80vh;
   transform: translateY(-50%);
   background: url("../img/hero-side.jpg") center / cover no-repeat;
   opacity: 0.3;
   -webkit-mask-image: radial-gradient(ellipse 80% 50% at 82% 50%, #000 30%, transparent 100%);
   mask-image: radial-gradient(ellipse 80% 50% at 82% 50%, #000 30%, transparent 100%);
   pointer-events: none;
-  z-index: 0;
-}
-
-.about .container {
-  position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 @media (max-width: 1199px) {
-  .about::after {
+  body::before {
     top: auto;
     bottom: 0;
-    width: 85%;
-    height: 45%;
+    width: 85vw;
+    height: 45vh;
     transform: none;
-    opacity: 0.2;
+    opacity: 0.16;
   }
 }
 
@@ -1414,4 +1404,167 @@ section {
   .about .content h3 {
     margin-top: -6px;
   }
+}
+
+/*--------------------------------------------------------------
+# Research: news and reports under each collaboration
+--------------------------------------------------------------*/
+.research .research-news {
+  list-style: none;
+  max-width: 900px;
+  margin: 14px 0 0 0;
+  padding: 12px 16px;
+  border-left: 3px solid #eeafca;
+  background: rgba(252, 242, 247, 0.75);
+}
+
+.research .resume-item .research-news li {
+  padding: 0 0 8px 0;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.research .resume-item .research-news li:last-child {
+  padding-bottom: 0;
+}
+
+.research .research-news .news-label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #4b7dab;
+}
+
+.research .research-news .news-source {
+  display: block;
+  font-size: 13px;
+  color: #6b7a87;
+}
+
+/*--------------------------------------------------------------
+# Contact band
+--------------------------------------------------------------*/
+.contact-band {
+  padding: 70px 0;
+  color: #fff;
+  background:
+    linear-gradient(105deg, rgba(36, 60, 84, 0.94) 0%, rgba(44, 73, 100, 0.86) 55%, rgba(212, 48, 118, 0.55) 100%),
+    url("../img/hero-side.jpg") center / cover no-repeat;
+}
+
+.contact-band h2 {
+  position: relative;
+  margin: 0 0 22px 0;
+  padding-bottom: 16px;
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contact-band h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: #eeafca;
+}
+
+.contact-band p {
+  max-width: 520px;
+  margin-bottom: 26px;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-band .contact-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  background: #d43076;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+.contact-band .contact-email:hover {
+  background: #fff;
+  color: #d43076;
+}
+
+.contact-band .contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-band .contact-list li {
+  margin-bottom: 14px;
+}
+
+.contact-band .contact-list li:last-child {
+  margin-bottom: 0;
+}
+
+.contact-band .contact-list a,
+.contact-band .contact-list span {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.contact-band .contact-list i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+.contact-band .contact-list a:hover {
+  color: #eeafca;
+}
+
+.contact-band .contact-list a:hover i {
+  background: #fff;
+  border-color: #fff;
+  color: #d43076;
+}
+
+/*--------------------------------------------------------------
+# Home: research grants read like the paragraphs above them
+--------------------------------------------------------------*/
+.about .content .count-box ul {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.about .content .count-box li a {
+  display: inline;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #d43076;
+}
+
+.about .content .count-box li a:hover {
+  color: #e16a9d;
 }
