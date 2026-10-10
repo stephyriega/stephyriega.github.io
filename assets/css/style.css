@@ -1372,9 +1372,9 @@ section {
   height: 80%;
   transform: translateY(-50%);
   background: url("../img/hero-side.jpg") center / cover no-repeat;
-  opacity: 0.16;
-  -webkit-mask-image: radial-gradient(ellipse at 75% 50%, #000 25%, transparent 72%);
-  mask-image: radial-gradient(ellipse at 75% 50%, #000 25%, transparent 72%);
+  opacity: 0.3;
+  -webkit-mask-image: radial-gradient(ellipse 80% 50% at 82% 50%, #000 30%, transparent 100%);
+  mask-image: radial-gradient(ellipse 80% 50% at 82% 50%, #000 30%, transparent 100%);
   pointer-events: none;
   z-index: 0;
 }
@@ -1391,6 +1391,6 @@ section {
     width: 85%;
     height: 45%;
     transform: none;
-    opacity: 0.12;
+    opacity: 0.2;
   }
 }
