@@ -1173,3 +1173,160 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# Research & Collaborations
+--------------------------------------------------------------*/
+.research .resume-title {
+  margin-top: 40px;
+}
+
+.research .section-title + .resume-title {
+  margin-top: 0;
+}
+
+.research .resume-item {
+  max-width: 900px;
+  padding-bottom: 28px;
+}
+
+.research .resume-item h4 {
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+.research .resume-item h5 {
+  font-size: 14px;
+  padding: 3px 12px;
+  margin-bottom: 8px;
+}
+
+.research .resume-item p {
+  margin-bottom: 8px;
+}
+
+.research .research-note {
+  font-size: 14px;
+  color: #4b7dab;
+}
+
+.research-abstract {
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+.research-abstract summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4b7dab;
+}
+
+.research-abstract p {
+  margin: 8px 0 0 0;
+}
+
+.research-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 0 0;
+}
+
+.research-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 4px 14px;
+  border: 1px solid #d43076;
+  border-radius: 50px;
+  color: #d43076;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.research-links a:hover {
+  background: #d43076;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Code
+--------------------------------------------------------------*/
+.code .code-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px 22px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+}
+
+.code .code-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background: #d43076;
+}
+
+.code .code-icon i {
+  font-size: 24px;
+  line-height: 1;
+  color: #fff;
+}
+
+.code .code-lang {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #4b7dab;
+}
+
+.code .code-card h4 {
+  margin: 6px 0 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #2c4964;
+}
+
+.code .code-card p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.code .code-card .research-links {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+/*--------------------------------------------------------------
+# CV
+--------------------------------------------------------------*/
+.cv .cv-actions {
+  margin: 0 0 20px 0;
+}
+
+.cv .cv-viewer {
+  max-width: 900px;
+  background: #fff;
+  border: 1px solid #e4ebf3;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+}
+
+.cv .cv-viewer iframe {
+  display: block;
+  width: 100%;
+  height: min(1160px, 130vw);
+  min-height: 520px;
+  border: 0;
+}
