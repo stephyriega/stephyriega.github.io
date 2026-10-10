@@ -266,3 +266,26 @@
   new PureCounter();
 
 })()
+
+/**
+ * Contact focus: when a "Contact" link is used, or the page opens at #contact,
+ * briefly highlight the contact band so it is clear where the link landed.
+ */
+;(function() {
+  const band = document.getElementById('contact');
+  if (!band) return;
+
+  const highlight = () => {
+    band.classList.remove('is-focused');
+    void band.offsetWidth; // restart the animation if it is already running
+    band.classList.add('is-focused');
+  };
+
+  if (window.location.hash === '#contact') {
+    window.addEventListener('load', () => setTimeout(highlight, 500));
+  }
+
+  document.querySelectorAll('a[href$="#contact"]').forEach((link) => {
+    link.addEventListener('click', () => setTimeout(highlight, 450));
+  });
+})();

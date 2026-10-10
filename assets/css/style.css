@@ -1568,3 +1568,41 @@ body::before {
 .about .content .count-box li a:hover {
   color: #e16a9d;
 }
+
+/*--------------------------------------------------------------
+# Contact band: highlight when a Contact link lands on it
+--------------------------------------------------------------*/
+.contact-band.is-focused .contact-email {
+  animation: contact-pulse 1s ease-out 3;
+}
+
+.contact-band.is-focused h2::after {
+  animation: contact-underline 1.2s ease-out 1;
+}
+
+@keyframes contact-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), 0 8px 24px rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    box-shadow: 0 0 0 24px rgba(255, 255, 255, 0), 0 8px 24px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@keyframes contact-underline {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 60px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-band.is-focused .contact-email,
+  .contact-band.is-focused h2::after {
+    animation: none;
+  }
+}
