@@ -533,7 +533,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/me-web.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -1356,34 +1356,41 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Home: side panel with the portrait
+# Home: watermark image on the right side
 --------------------------------------------------------------*/
-.about .about-side {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 240px;
-  padding: 30px;
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 48%;
+  height: 80%;
+  transform: translateY(-50%);
   background: url("../img/hero-side.jpg") center / cover no-repeat;
+  opacity: 0.16;
+  -webkit-mask-image: radial-gradient(ellipse at 75% 50%, #000 25%, transparent 72%);
+  mask-image: radial-gradient(ellipse at 75% 50%, #000 25%, transparent 72%);
+  pointer-events: none;
+  z-index: 0;
 }
 
-.about .about-side img {
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  border: 5px solid #fff;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
-  object-fit: cover;
+.about .container {
+  position: relative;
+  z-index: 1;
 }
 
-@media (min-width: 992px) {
-  .about .about-side {
-    min-height: 460px;
-  }
-
-  .about .about-side img {
-    width: 260px;
-    height: 260px;
+@media (max-width: 1199px) {
+  .about::after {
+    top: auto;
+    bottom: 0;
+    width: 85%;
+    height: 45%;
+    transform: none;
+    opacity: 0.12;
   }
 }
