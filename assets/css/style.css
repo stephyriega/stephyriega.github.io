@@ -1394,3 +1394,24 @@ section {
     opacity: 0.2;
   }
 }
+
+/*--------------------------------------------------------------
+# Home: tighter top so About fits on the first screen
+--------------------------------------------------------------*/
+.about {
+  padding-top: 24px;
+}
+
+.about .content .count-box {
+  padding: 12px 0 0 0;
+}
+
+@media (min-width: 1200px) {
+  .about .content {
+    padding: 0;
+  }
+
+  .about .content h3 {
+    margin-top: -6px;
+  }
+}
