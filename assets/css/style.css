@@ -1547,3 +1547,24 @@ body::before {
   border-color: #fff;
   color: #d43076;
 }
+
+/*--------------------------------------------------------------
+# Home: research grants read like the paragraphs above them
+--------------------------------------------------------------*/
+.about .content .count-box ul {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.about .content .count-box li a {
+  display: inline;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: #d43076;
+}
+
+.about .content .count-box li a:hover {
+  color: #e16a9d;
+}
