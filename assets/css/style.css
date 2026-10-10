@@ -533,7 +533,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/me-web.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -1353,4 +1353,44 @@ section {
 
 .code .section-title {
   padding-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Home: watermark image on the right side
+--------------------------------------------------------------*/
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 48%;
+  height: 80%;
+  transform: translateY(-50%);
+  background: url("../img/hero-side.jpg") center / cover no-repeat;
+  opacity: 0.3;
+  -webkit-mask-image: radial-gradient(ellipse 80% 50% at 82% 50%, #000 30%, transparent 100%);
+  mask-image: radial-gradient(ellipse 80% 50% at 82% 50%, #000 30%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about .container {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1199px) {
+  .about::after {
+    top: auto;
+    bottom: 0;
+    width: 85%;
+    height: 45%;
+    transform: none;
+    opacity: 0.2;
+  }
 }
