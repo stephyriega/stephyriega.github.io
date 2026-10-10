@@ -1181,8 +1181,13 @@ section {
   margin-top: 40px;
 }
 
-.research .section-title + .resume-title {
+.research .container > .resume-title:first-child {
   margin-top: 0;
+}
+
+.research .research-intro {
+  max-width: 900px;
+  margin-bottom: 20px;
 }
 
 .research .resume-item {
@@ -1323,10 +1328,29 @@ section {
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
 }
 
-.cv .cv-viewer iframe {
+.cv .cv-viewer canvas {
   display: block;
   width: 100%;
-  height: min(1160px, 130vw);
-  min-height: 520px;
-  border: 0;
+  height: auto;
+}
+
+.cv .cv-viewer canvas + canvas {
+  border-top: 1px solid #e4ebf3;
+}
+
+.cv .cv-status {
+  margin: 0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Inner pages (Research, Code, CV)
+--------------------------------------------------------------*/
+.breadcrumbs + section {
+  padding-top: 40px;
+}
+
+.code .section-title {
+  padding-bottom: 20px;
 }
