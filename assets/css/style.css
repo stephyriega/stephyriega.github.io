@@ -1206,6 +1206,30 @@ section {
   margin-bottom: 8px;
 }
 
+.research .research-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 20px;
+  margin-bottom: 8px;
+}
+
+.research .research-head h4,
+.research .research-head h5 {
+  margin-bottom: 0;
+}
+
+.research .research-head h5 {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 575px) {
+  .research .research-head {
+    flex-wrap: wrap;
+  }
+}
+
 .research .resume-item p {
   margin-bottom: 8px;
 }
