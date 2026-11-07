@@ -1592,3 +1592,25 @@ body::before {
     animation: none;
   }
 }
+
+/*--------------------------------------------------------------
+# Home: smaller photo and About text one step below the tabs
+--------------------------------------------------------------*/
+.about .content p,
+.about .content .count-box ul {
+  font-size: 13px;
+}
+
+.about .image {
+  min-height: 0;
+  aspect-ratio: 3 / 4;
+  max-width: 300px;
+  align-self: flex-start;
+}
+
+@media (max-width: 1199px) {
+  .about .image {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
