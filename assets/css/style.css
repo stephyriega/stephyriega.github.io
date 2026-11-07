@@ -1594,12 +1594,17 @@ body::before {
 }
 
 /*--------------------------------------------------------------
-# Home: smaller photo and About text one step below the tabs
+# Body text: one size for every page (matches the tabs)
 --------------------------------------------------------------*/
-.about .content p,
-.about .content .count-box ul {
-  font-size: 13px;
+main section:not(.contact-band):not(.breadcrumbs) p,
+main section:not(.contact-band):not(.breadcrumbs) li,
+main section:not(.contact-band):not(.breadcrumbs) summary {
+  font-size: 14px;
 }
+
+/*--------------------------------------------------------------
+# Home: smaller photo
+--------------------------------------------------------------*/
 
 .about .image {
   min-height: 0;
