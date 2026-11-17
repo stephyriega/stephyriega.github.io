@@ -1446,7 +1446,7 @@ body::before {
   margin: 0 0 22px 0;
   padding-bottom: 16px;
   font-family: "Playfair Display", serif;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 700;
   color: #fff;
 }
@@ -1463,8 +1463,8 @@ body::before {
 
 .contact-band p {
   max-width: 520px;
-  margin-bottom: 26px;
-  font-size: 17px;
+  margin-bottom: 22px;
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -1476,7 +1476,7 @@ body::before {
   border-radius: 50px;
   background: #9c2f5a;
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
   transition: 0.3s;
@@ -1505,9 +1505,9 @@ body::before {
 .contact-band .contact-list span {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   transition: 0.3s;
 }
 
@@ -1515,11 +1515,11 @@ body::before {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
   transition: 0.3s;
 }
@@ -1609,7 +1609,7 @@ main section:not(.contact-band):not(.breadcrumbs) summary {
 .about .image {
   min-height: 0;
   aspect-ratio: 3 / 4;
-  max-width: 220px;
+  max-width: 270px;
   align-self: flex-start;
 }
 
