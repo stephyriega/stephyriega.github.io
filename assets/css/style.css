@@ -1609,7 +1609,7 @@ main section:not(.contact-band):not(.breadcrumbs) summary {
 .about .image {
   min-height: 0;
   aspect-ratio: 3 / 4;
-  max-width: 300px;
+  max-width: 220px;
   align-self: flex-start;
 }
 
@@ -1618,4 +1618,44 @@ main section:not(.contact-band):not(.breadcrumbs) summary {
     margin: 0 auto;
     width: 100%;
   }
+}
+
+/*--------------------------------------------------------------
+# Research page: academic typography
+--------------------------------------------------------------*/
+.research,
+.research p,
+.research em,
+.research .research-links a,
+.research .resume-item h5 {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+}
+
+.research .resume-title {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.research .resume-item h4 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.research .resume-item p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.research .resume-item h5 {
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.research .research-links a {
+  font-size: 13.5px;
+  font-weight: 600;
 }
