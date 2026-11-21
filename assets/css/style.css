@@ -1609,7 +1609,7 @@ main section:not(.contact-band):not(.breadcrumbs) summary {
 .about .image {
   min-height: 0;
   aspect-ratio: 3 / 4;
-  max-width: 270px;
+  max-width: 240px;
   align-self: flex-start;
 }
 
@@ -1658,4 +1658,45 @@ main section:not(.contact-band):not(.breadcrumbs) summary {
 .research .research-links a {
   font-size: 13.5px;
   font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Home: compact contact band
+--------------------------------------------------------------*/
+.about {
+  padding-bottom: 32px;
+}
+
+.contact-band {
+  padding: 34px 0;
+}
+
+.contact-band .row.gy-5 {
+  --bs-gutter-y: 1.25rem;
+}
+
+.contact-band h2 {
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.contact-band p {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.contact-band .contact-email {
+  padding: 9px 22px;
+  font-size: 14px;
+}
+
+.contact-band .contact-list li {
+  margin-bottom: 8px;
+}
+
+.contact-band .contact-list i {
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
 }
